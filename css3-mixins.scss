@@ -1,14 +1,11 @@
 /* -------------------------------------------------------------
   Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library
-  By: Matthieu Aussaguel, http://www.mynameismatthieu.com, @matthieu_tweets
+  By: Majid Hazari, http://www.majidhazari.ir, @majidhazari
 
   List of CSS3 Sass Mixins File to be @imported and @included as you need
 
   The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
   ENDING css files
-
-  note: All CSS3 Properties are being supported by Safari 5
-  more info: http://www.findmebyip.com/litmus/#css3-properties
 
   Mixins available:
     -   background-gradient     - arguments: Start Color: #3C3C3C, End Color: #999999
@@ -31,6 +28,7 @@
     CSS Matrix Rotation Calculator http://www.boogdesign.com/examples/transforms/matrix-calculator.html
     -   text-shadow             - arguments: X: 2px, Y: 2px, Blur: 5px, Color: rgba(0,0,0,.4)
     -   transform               - arguments: Parameters: null
+    -   transform-origin        - arguments: Parameters: null
     -   transition              - arguments: What: all, Length: 1s, Easing: ease-in-out
     -   triple-borders          - arguments: Color One: #3C3C3C, Color Two: #999999, Color Three: #000000, Radius: 0
 
@@ -216,6 +214,13 @@
     -webkit-transform: $params;
     -moz-transform:    $params;
     transform:         $params;
+}
+
+/* TRANSFORM-ORIGIN  */
+@mixin transform-origin($params) {
+    -webkit-transform-origin: $params;
+    -moz-transform-origin:    $params;
+    transform-origin:         $params;
 }
 
 /* TRANSITION */
