@@ -1,22 +1,15 @@
-# [Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library](http://mynameismatthieu.com/sass-css3-mixins/)
+# [Sass CSS3 Mixins! The Cross-Browser CSS3 Sass Library]
 
-By: [Matthieu Aussaguel](http://www.mynameismatthieu.com), [@mattaussaguel](https://twitter.com/#!/mattaussaguel)
+By: [Majid Hazari](http://www.majidhazari.ir), [@majidhazari](https://twitter.com/#!/majidhazari)
 
 List of CSS3 Sass Mixins File to be `@imported` and `@included` as you need
 
 The purpose of this library is to facilitate the use of CSS3 on different browsers avoiding HARD TO READ and NEVER
 ENDING css files
 
-Note:All CSS3 Properties are being supported by Safari 5
-more info: http://www.findmebyip.com/litmus/#css3-properties
-
 ## Version
 
-v0.1 Beta
-
-## Website URL
-
-http://mynameismatthieu.com/sass-css3-mixins/
+v0.2 Beta
 
 ## Mixins available:
 
@@ -131,10 +124,4 @@ http://mynameismatthieu.com/sass-css3-mixins/
 
 ## Licence
 
-Copyright &copy; 2013 Matthieu Aussaguel
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright &copy; 2013 Majid Hazari
